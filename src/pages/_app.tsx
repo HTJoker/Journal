@@ -25,7 +25,9 @@ const MyApp: AppType<{ session: Session | null }> = ({
   pageProps: { session, ...pageProps },
 }) => {
   return (
-    <div className={`${poppins.variable} ${montserrat.variable}`}>
+    <div
+      className={`${poppins.variable} ${montserrat.variable} h-screen bg-gradient-to-br from-slate-900 to-slate-800 bg-cover bg-center `}
+    >
       <SessionProvider session={session}>
         <Nav />
         <Component {...pageProps} />

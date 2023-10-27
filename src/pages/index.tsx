@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex h-screen items-center bg-gradient-to-br from-slate-900 to-slate-800 bg-cover bg-center">
+      <div className="flex items-center">
         <div className="m-auto mt-64 flex flex-col justify-center gap-5 text-center align-middle">
           <h1 className="font-poppins bg-gradient-to-br from-white to-slate-600 box-decoration-slice bg-clip-text p-2 text-7xl font-extrabold text-transparent">
             JRNL
